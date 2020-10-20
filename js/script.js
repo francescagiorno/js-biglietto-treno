@@ -12,7 +12,9 @@ if (etaUtente < 18){
 
 } else if (etaUtente > 65){
 
-  alert("ha a uno scont del 40%");
+  alert("ha a uno sconto del 40%");
   document.getElementById("prezzo").innerHTML=("il prezzo del biglietto è di :  " + ((prezzoBiglietto * chilometriUtente)*0.6));
 
+} else {
+  document.getElementById("prezzo").innerHTML=("il prezzo del bigletto è di :" + (prezzoBiglietto * chilometriUtente));
 }
