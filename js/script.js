@@ -23,12 +23,56 @@ var sconto40 = 0.4;*/
 } else {
   document.getElementById("prezzo").innerHTML=("il prezzo del bigletto è di :" + (prezzoBiglietto * chilometriUtente));
 }*/
-var prezzoBiglietto = 0.21;
+/*var prezzoBiglietto = 0.21;
 var sconto20 = 0.2;
 var sconto40 = 0.4;
 
 var generaBtn = document.getElementById("generate");
 
-generaBtn.addEventListener("click", function()){
+generaBtn.addEventListener("click", function()){*/
 
-  v
+
+//costanti
+var prezzoBiglietto = 0.21;
+var sconto20 = 0.2;
+var sconto40 =0.4;
+var minorAge = 18;
+var overAge =65
+
+
+ var genBtnEl = document.getElementById("generate");
+//addeventlistner
+genBtnel.addEventListener("click", function()){
+  //input
+  var nameSurEl = document.getElementsById("NomeECognome");
+  var nameSur = nameSurEl.value;
+  var distanzaEl = document.getElementsById("distanza");
+  var distanza = distanzaEl.value;
+  var FasciaEtàEl = document.getElementsById("FasciaEtà");
+  var FasciaEtà =FasciaEtàEl.value;
+
+//prezzo prezzo biglieto
+ var prezzoBiglietto = document.getElementsById("biglietto");
+  if (età < minorenne) {
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
